@@ -1,13 +1,7 @@
 package com.vinayakgardi.todolist
 
 object TaskObject {
-    var taskList = mutableListOf<Task>(
-        Task("task1", "high"),
-        Task("task2", "medium"),
-        Task("task44", "high"),
-        Task("task5", "low"),
-        Task("task1", "medium"),
-    )
+    var taskList = mutableListOf<Task>()
 
     fun addTask(taskName: String, taskPriority: String) {
         taskList.add(Task(taskName, taskPriority))

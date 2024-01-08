@@ -1,4 +1,3 @@
 <resources>
-    <string name="app_name">ToDo List</string>
-    <string name="priority_med">#FF5733</string>
+    <string name="app_name">TO-DO List</string>
 </resources>
