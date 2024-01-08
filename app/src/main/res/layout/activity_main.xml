@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     android:background="@color/light_grey_background"
     tools:context=".MainActivity">
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/btnAddTask"
         android:layout_width="wrap_content"
@@ -20,7 +19,6 @@
         app:layout_constraintBottom_toBottomOf="@id/taskList"
         app:layout_constraintEnd_toEndOf="@id/taskList"
         android:contentDescription="Todo Add" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/taskList"
         android:layout_width="match_parent"
